@@ -1,0 +1,37 @@
+/* CSS pour le titre h2 */
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /* CSS pour la barre de navigation */
+  nav {
+    background-color: #fff; /* Couleur de fond de la barre */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre de la barre */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* CSS pour les liens de la barre de navigation */
+  .navbar-nav li {
+    margin: 0 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    color: #000; /* Couleur de base des liens */
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: #8d8d8d; /* Couleur au survol des liens */
+  }
+  

@@ -1,0 +1,39 @@
+<div class="container">
+    <h1>Liste des Croustilles</h1>
+    <div class="row mt-2">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <form (ngSubmit)="up()" ngNativeValidate>
+            <div class="card mb-5" style="width: 18rem;">
+                <label for="Voiture" class="h3">Voiture</label>
+                <input class="card-title" [(ngModel)]="Location.Voiture" name="voiture">
+
+
+
+                <label for="Prenom" class="h3">Prenom</label>
+              <input class="card-text"[(ngModel)]="Location.Prenom" name="Prenom">
+
+
+
+              <label for="Nom" class="h3">Nom</label>
+              <input class="card-text" [(ngModel)]="Location.Nom" name="Nom">
+
+
+
+
+              <label for="Durer" class="h3">Durer</label>
+              <input class="card-text" [(ngModel)]="Location.Durer" name="durer">
+
+              
+              <label for="InformationBancaire" class="h3">Information Bancaire</label>
+              <input class="card-text" [(ngModel)]="Location.InformationBancaire" name="price">
+
+              <input type="button" class="btn btn-success" (click)="annuler()" value="Annuler">
+              <input type="submit" class="btn btn-warning" value="MAJ">
+              <input type="button" class="btn btn-danger" (click)="del()" value="Supprimer">
+
+            </div>
+          </form>
+        </div>
+      </div>
+      
+</div>

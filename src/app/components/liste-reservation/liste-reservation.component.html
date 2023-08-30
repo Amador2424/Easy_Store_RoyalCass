@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Liste des Reservations</h1>
+  <div class="row mt-5">
+    <div class="col-sm-12 col-md-6 col-lg-4" *ngFor="let loc of Location">
+      <form>
+        <div class="card mb-5" style="width: 18rem;">
+          <h5 class="card-title">Voiture:{{loc.Voiture}}</h5>
+          <p class="card-text">Nom:{{loc.Nom}} </p>
+          <p class="card-text">Prenom:{{loc.Prenom}} </p>
+          <p class="card-text">Durer:{{loc.Durer}} jours</p>
+          <p class="card-text">Moyens de financement:{{loc.InformationBancaire}} </p>
+          <p class="card-text d-none">id:{{loc._id}} </p>
+          <div class="form-group">
+            <button type="button" class="btn btn-success"><a [routerLink]="['/Location/modif', loc._id]">Editer</a>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

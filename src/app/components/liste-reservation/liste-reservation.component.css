@@ -1,0 +1,128 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    
+    h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    }
+    
+    .col-sm-12 {
+    flex-basis: calc(100% / 1);
+    margin-bottom: 30px;
+    }
+    
+    .col-md-6 {
+    flex-basis: calc(100% / 2 - 15px);
+    margin-bottom: 30px;
+    }
+    
+    .col-lg-4 {
+    flex-basis: calc(100% / 3 - 20px);
+    margin-bottom: 30px;
+    }
+    
+    .card {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .card-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+    }
+    
+    .form-group {
+    margin-top: 20px;
+    }
+    
+    .btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .btn-success:hover {
+    background-color: #218838;
+    }
+    
+    a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    /* Styles for the form to add a reservation */
+    
+    .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    
+    .form-container h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    }
+    
+    .form-group label {
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    .form-group input {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    
+    .form-group select {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    
+    .form-group button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .form-group button:hover {
+    background-color: #218838;
+    }
